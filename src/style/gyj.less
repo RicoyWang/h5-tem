@@ -1,0 +1,93 @@
+@import 'vars.less';
+
+body {
+  background-color: #f5f5f7;
+}
+
+.no-product-tip {
+  font-size: 0.4rem;
+  color: #eb3f2f;
+}
+
+.back-top-btn {
+  position: fixed;
+  right: 0.2rem;
+  bottom: 1rem;
+  width: 1rem;
+  height: 1rem;
+  background-color: @lightMainColor;
+  color: @reverseFontColor;
+  text-align: center;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  //
+  i {
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+}
+
+@nav-height: 1rem;
+.container{
+  position: relative;
+  margin-bottom: @nav-height + 0.5;
+}
+.nav-bar {
+  position: fixed;
+  height: @nav-height;
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid @borderColor;
+  .navbar-item {
+    float: left;
+    position: relative;
+    font-size: 0.28rem;
+    text-align: center;
+    display: block;
+    width: 1.5rem;
+    height: 1rem;
+    background-color: #fff;
+    span {
+      position: absolute;
+      bottom: 0.1rem;
+      color: @mainFont;
+    }
+    i {
+      position: absolute;
+      font-size: 0.40rem;
+      top: 0.1rem;
+      color: @mainFont;
+    }
+    &.selected {
+      border-bottom: 0.04rem solid #fff;
+      span {
+        color: @mainColor;
+      }
+      i {
+        color: @mainColor;
+      }
+    }
+  }
+}
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+
+.no-product-tip{
+  position: relative;
+  top: 2rem;
+  width: 100%;
+  text-align: center;
+  .icon-nothing{
+    color: @disableColor;
+    font-size: 2rem;
+  }
+  .tip{
+    color: @disableColor;
+    font-size: 0.4rem;
+  }
+}

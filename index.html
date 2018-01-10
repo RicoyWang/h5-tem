@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>共赢商城</title>
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_375080_9wbllqfwtfpc766r.css">
+    <script src="./script/api.js"></script>
+  </head>
+  <body>
+    <script>
+      (function (doc, win) {
+        doc.documentElement.style.fontSize = doc.documentElement.clientWidth / 750 * 100 + 'px';
+      })(document, window)
+      apiready = function(){
+        $api.fixStatusBar(document.body);
+      }
+    </script>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
