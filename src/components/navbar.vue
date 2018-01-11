@@ -4,19 +4,11 @@
           <i class="iconfont icon-home"></i>
           <span>首页</span>
       </div>
-      <div @click="$router.push({name: 'categories'})" :class="{'navbar-item':true, 'selected':selected == 'categories'}">
+      <div @click="$router.push({name: 'RechargePage'})" :class="{'navbar-item':true, 'selected':selected == 'RechargePage'}">
           <i class="iconfont icon-yulan"></i>
-          <span>分类</span>
+          <span>充值</span>
       </div>
-      <div @click="$router.push({name: 'discover'})" :class="{'navbar-item':true, 'selected':selected == 'discover'}">
-          <i class="iconfont icon-faxian"></i>
-          <span>发现</span>
-      </div>
-      <div @click="$router.push({name: 'maintain'})" :class="{'navbar-item':true, 'selected':selected == 'maintain'}">
-          <i class="iconfont icon-weixiu"></i>
-          <span>维修</span>
-      </div>
-      <div @click="$router.push({name: 'me'})" :class="{'navbar-item':true, 'selected':selected == 'me'}">
+      <div @click="$router.push({name: 'PersonalCenter'})" :class="{'navbar-item':true, 'selected':selected == 'me'}">
           <i class="iconfont icon-person"></i>
           <span>我的</span>
       </div>

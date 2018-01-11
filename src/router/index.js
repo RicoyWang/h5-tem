@@ -5,44 +5,44 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '',
+    path: '/',
     name: 'index',
     component: require('views/index.vue')
   },
   {
-    path: '/categories',
-    name: 'categories',
-    component: require('views/categories.vue')
+    path: '/RechargePage',
+    name: 'RechargePage',
+    component: require('views/RechargePage.vue')
   },
   {
-    path: '/discover',
-    name: 'discover',
-    component: require('views/discover.vue')
+    path: '/PersonalCenter',
+    name: 'PersonalCenter',
+    component: require('views/PersonalCenter.vue')
   },
   {
-    path: '/maintain',
-    name: 'maintain',
-    component: require('views/maintain.vue')
+    path: '/SignPage',
+    name: 'SignPage',
+    component: require('views/SignPage.vue')
   },
   {
-    path: '/me',
-    name: 'me',
-    component: require('views/me.vue')
+    path: '/MyGifPage',
+    name: 'MyGifPage',
+    component: require('views/MyGifPage.vue')
   },
   {
-    path: 'shouji',
-    name: 'shouji',
-    component: require('views/shouji.vue')
+    path: '/CallUs',
+    name: 'CallUs',
+    component: require('views/CallUs.vue')
   },
   {
-    path: 'peijian',
-    name: 'peijian',
-    component: require('views/peijian.vue')
+    path: '/AboutUs',
+    name: 'AboutUs',
+    component: require('views/AboutUs.vue')
   },
   {
-    path: 'weixiu',
-    name: 'weixiu',
-    component: require('views/weixiu.vue')
+    path: '/DownLoadPage',
+    name: 'DownLoadPage',
+    component: require('views/DownLoadPage.vue')
   },
   {
     path: 'huanxin',

@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <mt-header class="header" title="66共赢家">
-            <!-- <i class="iconfont icon-search" aria-hidden="true" slot="right"></i> -->
+        <mt-header class="header"  title="首页">
+          
         </mt-header>
         <div class="swiper">
             <mt-swipe :auto="4000">
