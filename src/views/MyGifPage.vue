@@ -1,11 +1,27 @@
 <style lang="less" scoped>
     .gif_box{
         width: 100vw;
-        min-height: 100vh;
+        min-height: 80vh;
     }
     .navbar{
         margin-top: .9rem;
         position: relative;
+    }
+    .add_address{
+        margin-top:0;
+        height: .9rem;
+        line-height: .9rem;
+        text-align: center;
+        position: relative;
+        div{
+            height: 100%;
+            width: 100%;
+        }
+        .edit{
+            height: 80%;
+            float: right;
+            background-color: rgb(49, 132, 201);
+        }
     }
 </style>
 
@@ -20,7 +36,10 @@
             <mt-tab-item id="2">寄出礼品</mt-tab-item>
             <mt-tab-item id="3">全部礼品</mt-tab-item>
         </mt-navbar>
-
+        <div class="add_address">
+            <div>常用地址：XXXXX</div>
+            <font class="edit">编辑</font>
+        </div>
         <!-- tab-container -->
         <mt-tab-container v-model="selected">
         <mt-tab-container-item id="1">

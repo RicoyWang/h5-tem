@@ -184,7 +184,7 @@
                 </div>
                 <div class="in_access"></div>
             </li >
-            <li @click="$router.push({name: 'DownLoadPage'})">下载APP</li>
+            <li @click.native="$router.push({name: 'DownLoadPage'})">下载APP</li>
         </ul>
         <navbar selected="me"></navbar>
     </div>

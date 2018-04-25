@@ -45,9 +45,14 @@ const routes = [
     component: require('views/DownLoadPage.vue')
   },
   {
-    path: 'huanxin',
-    name: 'huanxin',
-    component: require('views/huanxin.vue')
+    path: '/UserAgreement',
+    name: 'UserAgreement',
+    component: require('views/UserAgreement.vue')
+  },
+  {
+    path: '/CompanyProfile',
+    name: 'CompanyProfile',
+    component: require('views/CompanyProfile.vue')
   },
   {
     path: '/goods/:goodsId/',
